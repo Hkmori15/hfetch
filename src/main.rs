@@ -4,12 +4,12 @@ use std::str;
 
 // Use const ASCII-art for better perfomance
 const ASCII_LOGO: &str = "\
-\x1b[1;35m            .------.
-\x1b[1;35m            |H.--. |
-\x1b[1;35m            | :/\\: |
-\x1b[1;35m            | (__) |
-\x1b[1;35m            | '--'H|
-\x1b[1;35m            `------'
+\x1b[1;35m.------.
+\x1b[1;35m|H.--. |
+\x1b[1;35m| :/\\: |
+\x1b[1;35m| (__) |
+\x1b[1;35m| '--'H|
+\x1b[1;35m`------'
 \x1b[0m";
 
 fn get_hostname() -> String {
