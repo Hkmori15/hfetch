@@ -1,0 +1,21 @@
+[package]
+name = "hfetch"
+version = "0.1.0"
+authors = ["Hkmori15"]
+description = "Minimalistic and blazing-fast fetch for Linux"
+repository = "https://github.com/Hkmori15/hfetch"
+license = "MIT"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "hfetch"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+debug = false
