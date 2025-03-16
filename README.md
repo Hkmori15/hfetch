@@ -9,7 +9,7 @@ Minimalistic and blazing-fast fetch for Linux
 - Resource efficient: Use minimal system resources
 - Cross-distro: Works on most Linux distro
 
-📸 ![Screenshot](image/2025-03-15_22-52.png)
+![Screenshot](image/2025-03-15_22-52.png)
 
 ## Building 🚀:
 1. Using Cargo:
